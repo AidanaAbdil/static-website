@@ -1,0 +1,242 @@
+@media(max-width:990px) {
+    .container {
+        max-width: 100%;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    .header-logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero {
+        flex-wrap: wrap;
+    }
+    .image-wrapper{
+        width: 80%;
+    }
+    .text-wrapper {
+        width: 90%;
+    }
+
+    .services {
+        flex-wrap: wrap;
+    }
+
+    .types {
+        width: 40%;
+    }
+
+    .information {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+    }
+
+    .information img {
+        width: 80%;
+    }
+
+    .info {
+        width: 80%;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .app {
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+    }
+
+    .app img {
+        width: 80%;
+    }
+
+    .mobile {
+        width: 80%;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .review {
+        width: 85%;
+    }
+
+    .review h1 {
+        width: 100%;
+    }
+
+    .review .divider-3 {
+        display: none;
+    }
+
+    .customer {
+        flex-wrap: wrap;
+    }
+
+    .quote .profile {
+        width: 100%;
+    }
+
+    .studies {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+
+    .divider-4 {
+        display: none;
+    }
+
+    .article {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .article-1 {
+        width: 40%;
+    }
+
+    .article-1 img {
+        width: 100%;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media(max-width:770px) {
+    .container {
+        width: 100%;
+
+    }
+    .header-info{
+        justify-content: center;
+    }
+    .header-logo {
+        display: flex;
+        justify-content: center;
+    }
+    .hero{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .hero .image-wrapper img{
+        width: 80%;
+    }
+
+    .hero .text-wrapper {
+        width: 70%;
+        flex-wrap: wrap;
+    }
+    .text-wrapper h1{
+        max-width: 100%;
+    }
+
+    .service {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .service-types {
+        display: flex;
+        flex-direction: column;
+    }
+    .main-txt{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-txt p{
+        width: 80%;
+    }
+    .information{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+    .studies {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .article {
+        flex-direction: column;
+        display: flex;
+        gap: 100px;
+    }
+
+    .article-1 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .types {
+        width: 60%;
+    }
+
+    .article-1 img {
+        width: 100%;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+    }
+
+    .footer-logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .sub-footer-main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sub-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+
+    .review {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .customer .profile {
+        width: 100%;
+    }
+
+    .review .slider {
+        padding-top: 50px;
+    }
+    .review-content .dots{
+        display: none;
+    }
+}
+
+@media(max-width:575px) {
+    .customer .slider{
+        display: none;
+    }
+}
+

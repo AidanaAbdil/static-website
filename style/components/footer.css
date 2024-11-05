@@ -1,0 +1,128 @@
+.footer {
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 100px;
+}
+.sub-footer-main{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    margin-top: 50px;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+}
+.footer-logo h3{
+    font-weight: 700;
+    font-size: 26px;
+    color: #5A98F2;
+    text-align: center;
+    background-color: #fff;
+    width: 41px;
+    height: 41px;
+    border-radius: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #fff;
+    margin-left: 10px;
+}
+.sub-footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 60px;
+    width: 35%;
+}
+
+.brief {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 70px 0;
+    gap: 15px;
+    width: 25%;
+}
+
+
+.brief h1:hover{
+    cursor: pointer;
+}
+.brief h4 {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    width: 391px;
+    color: #fff;
+}
+
+.brief p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    width: 391px;
+    color: #fff;
+}
+
+.company {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.region {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.help {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sub-footer .company h2,
+.region h2,
+.help h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 60px;
+    color: #fff;
+}
+
+.sub-footer .company a,
+.region a,
+.help a {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+    text-decoration: none;
+}
+.sub-footer .company a:hover,
+.region a:hover,
+.help a:hover{
+    text-decoration: underline;
+}
+.brief .dots{
+    position: absolute;
+    width: 131px;
+    right: 96%;
+    top: 65%;
+    z-index: 1;
+}
+.brief .footer-dots{
+    position: absolute;
+    width: 131px;
+    right: 14px;
+    top: -20%;
+}

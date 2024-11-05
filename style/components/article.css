@@ -1,0 +1,112 @@
+.studies {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+    background-image: url('../../images/rotated-vector.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.article {
+    display: flex;
+    justify-content: space-between;
+    gap: 34px;
+    width: 80%;
+}
+
+.article .dots{
+    position: absolute;
+    width: 131px;
+    right: 1080px;
+    top: 10%;
+    z-index: -1;
+}
+
+.article-1 img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+}
+
+.studies h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+}
+
+.divider-4 {
+    width: 56px;
+    height: 2px;
+    background-color: #000;
+    border-radius: 5px;
+    margin: 26px 0 26px 0;
+
+}
+
+.article-1 {
+    width: 30%;
+    height: 512px;
+    background-color: #fff;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+}
+
+.article-1 h3 {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+    width: 251px;
+}
+
+.article-1 p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+    width: 266px;
+}
+
+.article-1 a{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    color: #4089ED;
+    text-decoration: none;
+}
+.article-1 a:hover{
+    text-decoration: underline;
+}
+
+.article-1 i{
+    color: #4089ED;
+    font-size: 17px;
+}
+.studies button{
+    font-weight: 700;
+    font-size: 18px;
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+    Width: 200px;
+    Height: 56px;
+    color: #458FF6;
+    background-color: white;
+    margin-top: 37px;
+}
+.studies button:hover {
+    color: #fff;
+    transition: .4s;
+    background-color: #458FF6;
+    cursor: pointer;
+}
+.article-1 .read{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding:0 0 10px 10px;
+}
+.article-1 .art-text{
+    padding: 0 0 10px 10px;
+    width: 30%;
+}

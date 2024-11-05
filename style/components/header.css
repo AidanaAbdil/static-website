@@ -1,0 +1,54 @@
+.header-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 70px 0;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+}
+
+.header-info h2{
+    font-weight: 700;
+    font-size: 26px;
+    color: white;
+    text-align: center;
+    background-color: #458FF6;
+    width: 41px;
+    height: 41px;
+    border-radius: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-info h3{
+    color: #233348;
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #1F1534;
+    opacity: 0.5;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+nav ul li:hover a{
+    color: #458FF6;
+    transition: .4s;
+}
+.active {
+    opacity: 1;
+}
+
